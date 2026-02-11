@@ -11,10 +11,9 @@
 ### Option 1: Install from GitHub (Recommended)
 
 ```bash
-uv run daydream-scope install "git+https://github.com/shorties/projectionmapanything-vj-tools.git"
+# Using GitHub tarball (most reliable)
+uv run daydream-scope install "https://github.com/shorties/projectionmapanything-vj-tools/archive/refs/heads/main.tar.gz"
 ```
-
-Note: The `git+https://` prefix is required for git-based installations.
 
 ### Option 2: Install from Local Directory (Development)
 
