@@ -8,18 +8,20 @@
 
 ## Step-by-Step Installation
 
-### 1. Navigate to Project Directory
+### Option 1: Install from GitHub (Recommended)
 
 ```bash
-cd D:\Github\AutoProjectionMap
+uv run daydream-scope install "git+https://github.com/shorties/projectionmapanything-vj-tools.git"
 ```
 
-### 2. Install in Editable Mode
+Note: The `git+https://` prefix is required for git-based installations.
 
-This registers the entry point so Scope can discover the plugin:
+### Option 2: Install from Local Directory (Development)
 
 ```bash
-# Install the package in editable mode
+cd /path/to/projectionmapanything-vj-tools
+
+# Install in editable mode
 uv pip install -e .
 
 # Or if Scope has its own environment:

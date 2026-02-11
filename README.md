@@ -31,11 +31,11 @@ pip install transformers>=4.33.0 opencv-python>=4.8.0 pillow>=10.0.0
 ### Install Plugin
 
 ```bash
-# Development mode
-uv run daydream-scope install -e /path/to/scope-depth
+# From GitHub (git+https:// format required)
+uv run daydream-scope install "git+https://github.com/shorties/projectionmapanything-vj-tools.git"
 
-# Or from git
-uv run daydream-scope install https://github.com/YourUser/scope-depth.git
+# Development mode (local)
+uv run daydream-scope install -e /path/to/projectionmapanything-vj-tools
 ```
 
 ## Usage
