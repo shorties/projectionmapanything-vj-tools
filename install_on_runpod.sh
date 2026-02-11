@@ -43,7 +43,7 @@ fi
 echo "Found uv: $(uv --version)"
 
 echo
-necho "[2/6] Setting up plugin directory..."
+echo "[2/6] Setting up plugin directory..."
 
 PLUGIN_DIR="/root/projectionmapanything-vj-tools"
 if [ ! -d "$PLUGIN_DIR" ]; then
